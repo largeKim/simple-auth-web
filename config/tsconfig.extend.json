@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@app": ["./App.tsx"],
+      "@assets/*": ["./assets/*"],
+      "@components/*": ["./components/*"],
+      "@hooks/*": ["./hooks/*"],
+      "@pages/*": ["./pages/*"],
+      "@stores/*": ["./stores/*"],
+      "@utils/*": ["./utils/*"]
+    },
+    "typeRoots": ["node_modules/@types"]
+  }
+}
